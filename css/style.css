@@ -436,7 +436,7 @@ header{
   background-color: transparent;
   width: 278px;
   height: 349px;
-  border: 1px solid #0078ff;
+  /*border: 1px solid #0078ff;*/
   perspective: 1000px;
 }
 
