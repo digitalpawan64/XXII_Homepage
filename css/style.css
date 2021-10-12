@@ -488,6 +488,11 @@ header{
     top: 165px;
 }
 
+.owl-theme .owl-nav [class*=owl-]:hover {
+     background: transparent!important; 
+    color: #FFF;
+    text-decoration: none;
+}
 
 .testimonial-carousel-container::before{
   content:url(../image/quote-1.png); 
