@@ -473,7 +473,7 @@ header{
   background-image: linear-gradient(to bottom ,  #0078ff, #050f1e);
   color: white;
   transform: rotateY(180deg);
-  padding: 45px 25px 0 25px;
+  padding: 44px 25px 0 25px;
   box-sizing: border-box;
  
 }
@@ -481,7 +481,7 @@ header{
 .flip-box-back p{
    margin-bottom: 15px;
    font-size: 16px;
-   line-height: 30px;
+   line-height: 31px;
 }
 
 
