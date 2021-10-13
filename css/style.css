@@ -48,7 +48,7 @@ h2{
 .h2-white{
   color: white;
   font-size: 70px;
-  /*line-height: 91px;*/
+  line-height: 91px;
   font-family: 'Anton', sans-serif;
 }
 
@@ -347,6 +347,13 @@ header{
   margin-top: 10px;
 }
 
+.trailer-btn{
+  padding: 18px 37px!important;
+  margin-top: 10px;
+}
+
+
+
 
 .btn {
   background: #00e89d;
@@ -621,6 +628,7 @@ header{
 .transportation-content p{
     padding: 30px 50px 40px 0;
     line-height: 34px;
+    font-size: 18px;
 }
 .transportation-content button{
   margin-left: 30px;
@@ -678,9 +686,12 @@ header{
 }
 
 .icon-box p{
-  margin-top: 10px;
+  padding: 5px 0;
   font-weight: 400;
-  
+}
+
+.icon-box-content h5{
+  margin-top: -5px;
 }
 
 
@@ -877,7 +888,7 @@ header{
 .get-in-content .btn-email{
  border: 1px solid #000;
  margin-left: 30px;
- padding: 17px 60px;
+ padding: 17px 70px;
 }
 .get-in-container{
   text-align: center;
@@ -886,7 +897,7 @@ header{
 
 
 .get-in-margin-para{
-  padding: 0px 0 40px 0 ;
+  padding: 10px 0 40px 0 ;
 }
 
 
