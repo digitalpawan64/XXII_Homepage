@@ -1090,7 +1090,7 @@ h2{
 .menu__box {
     
     width: 350px;
-    z-index: 1;
+    z-index: 2;
 }
 
 .menu__box li button {
