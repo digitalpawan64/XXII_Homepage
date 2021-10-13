@@ -1,6 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
+ 
   
 }
 
@@ -1002,7 +1003,293 @@ footer{
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  .example {background: red;}
+  .welcome{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-image-box{
+ width: 100%;
+}
+
+.welcome-content {
+  width: 100%;
+  
+}
+
+.image-box-1,.image-box-2{
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.margin-image{
+  margin: 10px 0;
+}
+
+.image-box-1 {
+  margin-bottom:10px ;
+
+}
+
+.top-content{
+  display: none;
+}
+
+header{
+  width: 100%;
+  height: auto;
+  background-image: url(../image/header-banner.png);
+  background-size: cover;
+  background-position: center;
+  padding: 0 0 50px 0;
+
+}
+
+.header{
+ /* padding: 50px 0;*/
+}
+
+h1{
+  font-size: 44px;
+  line-height: 64px;
+    
+}
+.header-h1 {
+
+    margin-top: 50px;
+}
+
+h2{
+  font-size: 40px;
+  line-height: 60px;
+  
+}
+
+
+.h2-white{
+  color: white;
+  font-size: 40px;
+  line-height: 60px;
+  
+}
+
+.btn, .btn-blue, .btn-white, .btn-green, .call-btn {
+    padding: 8px 20px !important;
+   
+}
+
+.logo img{
+  width: 115px;
+}
+.welcome-content {
+    
+    text-align: center;
+    padding: 0 20px;
+}
+
+#welcome {
+    
+    padding: 20px 0;
+}
+.trasporation{
+  height: auto;
+}
+
+.trasporation-container{
+  width: 100%;
+  height: auto;
+  display: flex; 
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  float: none;
+}
+
+.why-choose{
+   width: 100%;
+   height: auto;
+}
+
+.why-choose-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.truck{
+  height: auto;
+  padding: 50px 0;
+  position: relative;
+}
+
+.truck-container-top{
+  flex-direction: column;
+}
+
+.truck-img-top{
+    position: relative;
+    top: 0;
+    right: 0;
+}
+
+.truck-content-top {
+     width: 100%; 
+    position: relative;
+     right: 0; 
+}
+
+.truck-container-bottom {
+    
+    margin-top: 20px;
+    flex-direction: column-reverse;
+}
+
+.truck-content-bottom {
+    margin-left: 00px;
+    width: 100%;
+}
+
+.pricision {
+    height: auto;
+    padding: 30px;
+}
+
+.pricision-container-top {
+    padding-top: 0px;
+}
+
+.pricision-container-top{
+    flex-direction: column;
+}
+.pricision-content-top {
+    width: 100%;
+}
+.pricision-container-bottom {
+ flex-direction: column-reverse;
+}
+
+.pricision-img-top img,.pricision-img-bottom img{
+  width: 300px;
+}
+
+.pricision-container-bottom {
+     padding-top: 30px; 
+    align-items: center;
+}
+
+.pricision-content-bottom {
+    position: relative;
+    right: 0px;
+    bottom: 0px;
+}
+
+.transportation {
+   
+    width: 100%;
+    height: auto;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.transportation-content {
+    width: 100%;
+}
+
+.transportation-img img{
+  width: 300px;
+}
+
+
+
+.mobile-app {
+    
+    height: auto;
+    padding: 30px 0;
+}
+
+.mobile-app-container {
+    flex-direction: column;
+    padding-top: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.mobile-app-container::before{
+  display: none;
+}
+
+.footer {
+    flex-direction: column;
+    height: auto;
+}
+
+.footer-menu ul {
+    flex-direction: column;
+    }
+
+    .icon-box {
+    display: flex;
+    padding: 0;
+    /*flex-direction: column; */
+}
+.why-choose-img{
+  height: auto;
+}
+.why-choose-img img{
+  width: 300px;
+}
+
+.menu__btn {
+    
+    left: 300px;
+  
+}
+
+
+
+.owl-theme .owl-dots, .owl-theme .owl-nav {
+    
+    display: none;
+}
+
+.copyright-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    flex-direction: column;
+}
+
+/*body{
+   overflow-x: hidden;
+}*/
+
+p {
+    
+    font-size: 16px;
+    
+}
+.truck-img-top img,.truck-img-bottom img{
+  width: 300px;
+}
+
+.why-choose-btn {
+    
+    margin: 20px auto;
+    text-align: center;
+}
+.why-choose{
+  padding: 20px 0;
+}
+.why-choose-content {
+  padding: 20px 20px 0 20px;
+}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
