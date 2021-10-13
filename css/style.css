@@ -1078,6 +1078,45 @@ h2{
   
 }
 
+.menu__btn {
+    right: 10px;
+    top: 30px;
+}
+
+.menu__btn > span, .menu__btn > span::before, .menu__btn > span::after {   
+    height: 2px;    
+}
+
+.menu__box {
+    
+    width: 350px;
+    z-index: 1;
+}
+
+.menu__box li button {
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.menu__btn {
+    
+    top: 33px;
+    right: 30px;
+    width: 35px; 
+    z-index: 2;
+}
+
+.menu__btn > span::before {
+    top: -10px;
+}
+
+.menu__btn > span::after {
+    top: 10px;
+}
+
+
+
+
 .btn, .btn-blue, .btn-white, .btn-green, .call-btn {
     padding: 8px 20px !important;
    
@@ -1280,6 +1319,11 @@ h2{
   width: 300px;
 }
 
+.transportation-content button {
+    margin-left: 0px;
+    margin: 10px 0;
+}
+
 
 
 
@@ -1314,14 +1358,6 @@ h2{
     flex-direction: column;
     height: auto;
 }
-
-
-
-
-.menu__btn { 
-    left: 300px;
-}
-
 
 
 .owl-theme .owl-dots, .owl-theme .owl-nav {
