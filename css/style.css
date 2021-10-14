@@ -1065,6 +1065,10 @@ header{
  /* padding: 50px 0;*/
 }
 
+.btn a,.btn-white a, .trailer-btn a, .explore-btn a{
+  font-size: 14px;
+}
+
 h1{
   font-size: 40px;
   line-height: 64px;
@@ -1164,6 +1168,7 @@ h2{
 .testimonial-carousel-container {
     padding-top: 0px;
     color: #fff;
+    text-align: center;
 }
 
 .trusted {
@@ -1217,10 +1222,19 @@ h2{
     
     margin: 20px auto;
     text-align: center;
+   
+}
+
+.why-choose-btn a{
+   font-size: 14px;
 }
 
 .why-choose-content {
   padding: 20px 20px 0 20px;
+}
+
+.icon-box{
+  margin-top: 20px;
 }
 .truck{
   height: auto;
