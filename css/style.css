@@ -1065,7 +1065,7 @@ header{
  /* padding: 50px 0;*/
 }
 
-.btn a,.btn-white a, .trailer-btn a, .explore-btn a{
+.btn a,.btn-white a, .trailer-btn a, .explore-btn a,.btn-blue a{
   font-size: 14px;
 }
 
@@ -1118,7 +1118,7 @@ h2{
     top: 33px;
     right: 30px;
     width: 35px; 
-    z-index: 2;
+    z-index: 3;
 }
 
 .menu__btn > span::before {
@@ -1132,7 +1132,7 @@ h2{
 
 
 
-.btn, .btn-blue, .btn-white, .btn-green, .call-btn, .btn-blue {
+.btn, .btn-blue, .btn-white, .btn-green, .call-btn {
     padding: 8px 20px !important;
    
 }
