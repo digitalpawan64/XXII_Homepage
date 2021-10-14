@@ -1010,10 +1010,515 @@ footer{
 
 
 
+/*Media Query*/
+
+@media only screen and (max-width: 1865px) {
+  .road-2 {
+    
+    bottom: 60px;
+}
+}
+
+@media only screen and (max-width: 1785px) {
+  .owl-next {
+    right: -140px;
+}
+
+.owl-prev {
+    left: -140px;
+}
+}
+
+@media only screen and (max-width: 1700px) {
+  .owl-next{
+    right: 500px;
+    top: 420px;
+}
+
+  .owl-prev{
+    left: 500px;
+    top: 420px;
+}
+.features-carousel-item {
+    padding: 0px 60px;
+}
+
+.icon-box {
+    padding: 20px 50px 20px 50px;
+}
+
+.pricision-container-top, .pricision-container-bottom {
+    justify-content: center;
+}
+
+.truck-img-top img, .truck-img-bottom img {
+   width: 1000px;
+}
+
+.pricision-img-top img{
+  width: 600px;
+}
+
+.pricision-content-top p {
+    margin: 30px 69px 40px 0;
+}
+/*.why-choose-img{
+  width: 50%;
+  height: 100%;
+  background-image: url(../image/transport-img.png);
+}*/
+
+}
+
+@media only screen and (max-width: 1600px) {
+ .flip-box-front, .flip-box-back , .flip-box-front img{
+    width: 225px!important;
+    height: 300px!important;
+  }
+  .flip-box-back {
+    padding: 5px 10px 0 10px;
+    box-sizing: content-box;
+}
+.road-1 {
+    top: 242px;
+}
+
+.road-2 {
+    bottom: 31px;
+}
+.testimonial-carousel-container {
+    padding-top: 50px;
+}
+.why-choose-img img{
+  width: 700px;
+}
+p {
+    font-size: 18px;
+}
+.why-choose-container {
+    
+    align-items: flex-start;
+}
+.icon-box {
+    padding: 10px 50px 10px 50px;
+}
+.why-choose {
+    width: 100%;
+    height: 820px;
+}
+.why.choose.heading h2{
+  margin-top: 25px;
+}
+}
+
+@media only screen and (max-width: 1575px) {
+  .truck-content-top p{
+    padding-right: 50px!important;
+}
+.road-2 {
+    bottom: 90px;
+}
+}
+
+@media only screen and (max-width: 1455px) {
+
+ .welcome-image-box h3 {
+    line-height: 50px;  
+} 
+
+.image-box-1 {
+    margin-bottom: 0px; 
+}
+  .truck-content-top p{
+    padding-right: 50px!important;
+}
+.road-1 {
+    top: 212px;
+}
+
+.road-2 {
+    bottom: 64px;
+}
+
+.truck-img-top img, .truck-img-bottom img {
+    width: 880px;
+}
+
+h2 {
+    font-size: 60px;
+    
+}
+
+.pricision-img-bottom img{
+  width: 1115px;
+}
+
+.why-choose-btn {
+    margin-top: -18px;
+}
+
+.truck-content-top {
+    right: 0;
+    left: 30px;
+}
+
+.icon-box {
+    padding: 10px 10px 10px 10px;
+}
+
+.why-choose {
+    height: 758px;
+}
+
+.why-choose-img img {
+    width: 650px;
+}
+
+.pricision-img-bottom img {
+    width: 1019px;
+}
+
+.pricision {
+    height: 1400px;
+}
+
+.pricision-container-top {
+    padding-top: 51px;
+}
+
+}
+
+@media only screen and (max-width:1360px) {
+  h2 {
+    font-size: 54px;
+    
+}
+
+.why-choose-btn {
+    margin-left: 200px;
+    margin-top: 20px;
+}
+
+.why-choose-heading {
+    margin: 15px 0;
+}
+
+.truck-img-top img, .truck-img-bottom img {
+    width: 750px;
+}
+.road-1 {
+    top: 181px;
+}
+.features-carousel-item {
+    padding: 0px 40px;
+}
+
+}
+
+
+@media only screen and (max-width:1290px){
+
+  h2 {
+    font-size: 48px;
+}
+  .why-choose-img img {
+    width: 540px;
+    height: 800px;
+}
+
+.icon-box {
+    padding: 6px 10px 6px 10px;
+}
+
+.road-2 {
+    bottom: 39px;
+}
+
+.owl-next {
+    right: 405px;
+}
+
+.owl-prev{
+  left: 405px;
+}
+
+.features-carousel-item {
+    padding: 0px 40px;
+}
+} 
+
+@media only screen and (max-width:1250px){
+
+  .flip-box-front, .flip-box-back, .flip-box-front img {
+    width: 190px!important;
+    height: 260px!important;
+}
+
+.flip-box{
+  width: 190px!important;
+    height: 260px!important;
+}
+
+.flip-box-back p {
+    margin-bottom: 15px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.image-box-1 {
+    margin-bottom: 30px;
+}
+
+ .why-choose-img img {
+    width: 500px;
+    height: 760px;
+}
+
+.truck-img-top img, .truck-img-bottom img {
+    width: 645px;
+}
+
+.pricision-container-bottom {
+    padding-top: 90px;
+    
+}
+.pricision {
+    height: 1230px;
+}
+.pricision-img-bottom img {
+    width: 915px;
+}
+.welcome {
+    width: 100%;
+    height: 820px;
+}
+.road-1 {
+    top: 156px;
+}
+
+.road-2 {
+    bottom: 64px;
+}
+
+h2 {
+    line-height: 64px; 
+}
+
+.truck {
+    height: 893px;
+}
+
+.features-carousel-item {
+    padding: 0px 30px;
+}
+
+}
+@media only screen and (max-width:1200px){
+  .mobile-app-img img{
+    width: 230px;
+  }
+
+  .mobile-app-container::before {
+     
+    left: 157px;
+    bottom: -140px;
+}
+.footer-menu ul li a {
+    margin: 0px 10px;
+   
+}
+
+.footer-logo img, .logo img{
+  width: 170px;
+}
+
+.truck-container-bottom {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.road-2 {
+    bottom: 157px;
+}
+.trailer-btn {
+    padding: 18px 15px!important;
+    
+}
+.trailer-btn a, .btn a,.white-btn a, .blue-btn a, .green-btn a{
+  font-size: 16px;
+}
+.pricision-img-bottom img {
+    width: 822px;
+}
+
+.why-choose-img img {
+    width: 485px;
+   
+}
+.why-choose-content{
+  padding: 25px 0;
+}
+.h2-white {
+    font-size: 54px;
+    line-height: 70px;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+.features-carousel-item {
+    padding: 0px 30px;
+}
+
+.owl-prev {
+    left: 370px;
+}
+.owl-next {
+    right: 370px;
+}
+
+.transportation-img img{
+  width: 300px;
+}
+
+.trasporation-container {
+    width: 100%; 
+    height: auto;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+
+.transportation {
+    width: 100%;
+    height: 600px;
+}
+.why-choose-img img {
+    width: 430px;
+}
+.pricision-img-top img {
+    width: 500px;
+}
+.pricision-img-bottom img {
+    width: 776px;
+}
+}
+
+
+@media only screen and (max-width: 1030px){
+#menu__toggle:checked ~ .menu__box {
+    z-index: 2;
+}
+
+.menu__btn {
+    z-index: 3;
+}
+  header {
+    height: 750px;  
+}
+
+.header-h1 {
+    margin-top: 180px;
+}
+  .truck-img-top img, .truck-img-bottom img {
+    width: 530px;
+}
+h2 {
+    line-height: 54px;
+}
+.flip-box-back p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+}
+.flip-box-front, .flip-box-back, .flip-box-front img {
+    width: 160px!important;
+    height: 220px!important;
+}
+
+.pricision {
+    height: 1000px;
+}
+.pricision-content-bottom {
+    right: 75px;
+}
+.common-content p {
+    margin: 15px 0 15px 0;
+}
+
+.pricision-img-top img {
+    width: 410px;
+}
+
+.pricision-img-bottom img {
+    width: 610px;
+}
+.mobile-app-container::before{
+  display: none;
+}
+
+.owl-next {
+    right: 300px;
+}
+
+.owl-prev {
+    left: 300px;
+}
+
+.mobile-app-container {
+   
+    justify-content: space-around;
+    padding-top: 0px;
+    
+    align-items: center;
+}
+.mobile-app {
+        
+    height: auto;
+    padding: 30px 0;
+}
+
+.footer {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.copyright-container {
+    
+    justify-content: center;
+    padding-top: 30px;
+    flex-direction: column;
+    align-items: center;
+}
+.line, .line-2 {
+    padding: 0 30px;
+}
+
+.btn , .btn-white, .explore-btn , .trailer-btn{
+    
+    padding: 11px 27px;
+    
+}
+.truck-content-bottom {
+    margin-left: 10px;
+    width: 34%;
+}
+.road-2 {
+    bottom: 171px;
+}
+p {
+    font-size: 16px;
+}
+.truck {
+    height: 792px;
+}
+}
+
+
 
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .welcome{
   width: 100%;
   height: auto;
@@ -1022,6 +1527,8 @@ footer{
   align-items: center;
   flex-direction: column;
 }
+
+
 
 .welcome-image-box{
  width: 100%;
@@ -1071,7 +1578,7 @@ header{
 
 h1{
   font-size: 40px;
-  line-height: 64px;
+  line-height: 54px;
     
 }
 .header-h1 {
@@ -1081,7 +1588,7 @@ h1{
 
 h2{
   font-size: 36px;
-  line-height: 60px;
+  line-height: 46px;
   
 }
 
@@ -1091,6 +1598,17 @@ h2{
   font-size: 40px;
   line-height: 60px;
   
+}
+
+h4 {
+    font-size: 20px;
+     line-height: normal; 
+    margin-top: 10px;
+   
+}
+
+p { 
+    font-size: 16px; 
 }
 
 .menu__btn {
@@ -1188,6 +1706,7 @@ h2{
 .transportation-content p {
      padding:  0;
     line-height: 34px;
+    font-size: 16px;
 }
 .trasporation-container{
   width: 100%;
@@ -1215,8 +1734,9 @@ h2{
 .why-choose-img{
   height: auto;
 }
-.why-choose-img img{
-  width: 300px;
+.why-choose-img img {
+    width: 350px;
+    height: 500px;
 }
 .why-choose-btn {
     
@@ -1361,6 +1881,7 @@ h2{
 
 .mobile-app-content {
      width: 100%; 
+     margin-top: 15px;
 }
 
 .mobile-app-container {
@@ -1404,6 +1925,10 @@ footer{
   padding: 30px 0;
 }
 
+.footer-menu ul{
+  text-align: center;
+}
+
 .line , .line-2{
    transform: rotate(90deg);
     color: #fff;
@@ -1418,32 +1943,8 @@ footer{
     flex-direction: column;
 }
 
-/*body{
-   overflow-x: hidden;
-}*/
 
-p { 
-    font-size: 16px; 
-}
 
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .example {background: green;}
-}
 
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-  .example {background: blue;}
-} 
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-  .example {background: orange;}
-} 
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-  .example {background: pink;}
-}
