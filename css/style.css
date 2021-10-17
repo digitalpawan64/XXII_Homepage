@@ -1063,11 +1063,6 @@ footer{
 .pricision-content-top p {
     margin: 30px 69px 40px 0;
 }
-/*.why-choose-img{
-  width: 50%;
-  height: 100%;
-  background-image: url(../image/transport-img.png);
-}*/
 
 .welcome-image-box h3 {
     
@@ -1078,14 +1073,14 @@ footer{
 }
 
 @media only screen and (max-width: 1600px) {
- .flip-box-front, .flip-box-back , .flip-box-front img{
+/* .flip-box-front, .flip-box-back , .flip-box-front img{
     width: 225px!important;
     height: 300px!important;
   }
   .flip-box-back {
     padding: 5px 10px 0 10px;
     box-sizing: content-box;
-}
+}*/
 
 .why-choose-content {
   padding: 30px 0;
@@ -1120,6 +1115,32 @@ p {
 .why.choose.heading h2{
   margin-top: 25px;
 }
+
+.welcome{
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.welcome-content {
+     width: 100%; 
+     margin-bottom: 30px;
+}
+.welcome-image-box h3{
+  margin-bottom: 20px;
+}
+.welcome-image-box {
+    width: 100%;
+}
+.image-box-1,.image-box-2{
+  justify-content: center;
+}
+
 }
 
 @media only screen and (max-width: 1595px) {
@@ -1286,7 +1307,7 @@ h2 {
 } 
 
 @media only screen and (max-width:1250px){
-
+/*
   .flip-box-front, .flip-box-back, .flip-box-front img {
     width: 190px!important;
     height: 260px!important;
@@ -1301,7 +1322,7 @@ h2 {
     margin-bottom: 15px;
     font-size: 16px;
     line-height: 24px;
-}
+}*/
 
 .image-box-1 {
     margin-bottom: 30px;
@@ -1328,7 +1349,7 @@ h2 {
 }
 .welcome {
     width: 100%;
-    height: 820px;
+   
 }
 .road-1 {
     top: 156px;
@@ -1489,15 +1510,7 @@ h1 {
 h2 {
     line-height: 54px;
 }
-.flip-box-back p {
-    margin-bottom: 10px;
-    font-size: 14px;
-    line-height: 24px;
-}
-.flip-box-front, .flip-box-back, .flip-box-front img {
-    width: 160px!important;
-    height: 220px!important;
-}
+
 
 .pricision {
     height: 930px;
@@ -1562,7 +1575,7 @@ h2 {
     
 }
 .truck-content-bottom {
-    margin-left: 10px;
+   /* margin-left: 10px;*/
     width: 34%;
 }
 .road-2 {
@@ -1575,34 +1588,68 @@ p {
     height: 792px;
 }
 }
+
 @media only screen and (max-width: 970px){
-  .welcome{
-  width: 100%;
-  height: auto;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+  .image-box-1,.image-box-2{
   flex-direction: column;
-  padding: 20px 0;
-  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+
 }
 
-.welcome-content {
-     width: 100%; 
-     margin-bottom: 30px;
+.truck{
+  height: auto;
 }
-.welcome-image-box h3{
-  margin-bottom: 20px;
-}
-.welcome-image-box {
-    width: 100%;
-}
-.image-box-1,.image-box-2{
-  justify-content: center;
+.truck-container-top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 
+.truck-img-top {
+    position: relative; 
+     top: auto; 
+     right: auto;
 }
+
+.truck-content-top {
+    width: 80%;
+    position: relative;
+    right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.road-1{
+  top: 128px;
+}
+.truck-container-bottom{
+  flex-direction: column-reverse;
+  align-items: center;
+
+}
+.truck-img-bottom {
+    position: relative; 
+     top: auto; 
+     right: auto;
+}
+
+.truck-content-bottom {
+   
+    width: 80%;
+    position: relative;
+    right: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.road-2{
+  top: 130px;
+}
+
+}
+
 
 @media only screen and (max-width: 898px){
 .top-content ul{
@@ -1638,16 +1685,9 @@ p {
   flex-direction: column;
 }
 
-.truck-content-top {
-    
+.truck-content-top {  
     left: 0;
 }
-
-
-
-
-
-
 
 .welcome-content {
   width: 100%;
@@ -1926,7 +1966,7 @@ p {
 }
 
 .truck-content-bottom {
-    margin-left: 00px;
+    margin-left: 0px;
     width: 100%;
 }
 
@@ -1992,6 +2032,7 @@ p {
 
 .transportation-img img{
   width: 300px;
+  height: 500px;
 }
 
 .transportation-content button {
