@@ -795,7 +795,7 @@ header{
 
 .pricision{
  background-color: #23233c;
- height: 1530px;
+ height: auto;
 
 }
 
@@ -825,8 +825,14 @@ header{
 .pricision-content-bottom {
     
     position: relative;
-    right: 150px;
-    bottom: 120px;
+    /*right: 150px;*/
+    bottom: 60px;
+    width: 36%;
+}
+
+.pricision-img-bottom img{
+  width: 100%;
+  height: auto;
 }
 
 
@@ -1153,12 +1159,10 @@ p {
 
 .pricision {
     background-color: #23233c;
-    height: 1451px;
+    
 }
 
-.pricision-img-bottom img{
-  width: 1070px;
-}
+
 
 .icon-box-content p{
   font-size: 17px;
@@ -1220,13 +1224,9 @@ h2 {
     width: 650px;
 }
 
-.pricision-img-bottom img {
-    width: 995px;
-}
 
-.pricision {
-    height: 1370px;
-}
+
+
 
 .pricision-container-top {
     padding-top: 51px;
@@ -1341,12 +1341,8 @@ h2 {
     padding-top: 90px;
     
 }
-.pricision {
-    height: 1230px;
-}
-.pricision-img-bottom img {
-    width: 915px;
-}
+
+
 .welcome {
     width: 100%;
    
@@ -1379,13 +1375,10 @@ h2 {
 }
 @media only screen and (max-width:1200px){
 
- .pricision {
-    height: 1205px;
-}
-
+ 
 .pricision-content-bottom {
     position: relative;
-    right: 90px;
+    /*right: 90px;*/
     bottom: 120px;
 }
   .mobile-app-img img{
@@ -1421,9 +1414,7 @@ h2 {
 .trailer-btn a, .btn a,.white-btn a, .blue-btn a, .green-btn a{
   font-size: 16px;
 }
-.pricision-img-bottom img {
-    width: 822px;
-}
+
 
 
 .why-choose-content{
@@ -1471,9 +1462,6 @@ h1 {
 .pricision-img-top img {
     width: 500px;
 }
-.pricision-img-bottom img {
-    width: 776px;
-}
 
 }
 
@@ -1512,11 +1500,8 @@ h2 {
 }
 
 
-.pricision {
-    height: 930px;
-}
 .pricision-content-bottom {
-    right: 75px;
+    /*right: 75px;*/
 }
 .common-content p {
     margin: 15px 0 15px 0;
@@ -1526,9 +1511,7 @@ h2 {
     width: 410px;
 }
 
-.pricision-img-bottom img {
-    width: 610px;
-}
+
 .mobile-app-container::before{
   display: none;
 }
@@ -1648,6 +1631,26 @@ p {
   top: 130px;
 }
 
+.pricision-container-top  {
+    
+    flex-direction: column;
+    align-items: center;
+}
+
+.pricision-container-bottom {
+   flex-direction: column-reverse;
+    align-items: center;
+}
+
+.pricision-content-top,.pricision-content-bottom {
+    width: 100%;
+    text-align: center;
+}
+
+.pricision-img-bottom img {
+    width: 510px;
+}
+
 }
 
 
@@ -1669,9 +1672,7 @@ p {
     height: 630px;
 }
 
-.pricision {
-    height: 1000px;
-}
+
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -2009,7 +2010,7 @@ p {
 
 .pricision-content-bottom {
     position: relative;
-    right: 0px;
+    /*right: 0px;*/
     bottom: 0px;
 }
 
