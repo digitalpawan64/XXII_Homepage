@@ -2036,7 +2036,8 @@ p {
 }
 
 .pricision-img-top img,.pricision-img-bottom img{
-  width: auto;
+  width: 80%;
+  height: auto;
 }
 
 .pricision-container-bottom {
