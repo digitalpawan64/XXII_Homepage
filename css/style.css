@@ -1040,9 +1040,8 @@ footer{
     
     bottom: 60px;
 }
-.pricision{
- 
- height: auto;
+.pricision {
+    height: 1490px;
 }
 }
 
@@ -1101,14 +1100,10 @@ footer{
 }
 
 @media only screen and (max-width: 1600px) {
-/* .flip-box-front, .flip-box-back , .flip-box-front img{
-    width: 225px!important;
-    height: 300px!important;
-  }
-  .flip-box-back {
-    padding: 5px 10px 0 10px;
-    box-sizing: content-box;
-}*/
+
+.pricision {
+    height: 1420px;
+}
 
 .why-choose-content {
   padding: 30px 0;
@@ -1214,6 +1209,9 @@ p {
     bottom: 64px;
 }
 
+.pricision {
+    height: 1350px;
+}
 .truck-img-top img, .truck-img-bottom img {
     width: 880px;
 }
@@ -1329,23 +1327,9 @@ h2 {
 } 
 
 @media only screen and (max-width:1250px){
-/*
-  .flip-box-front, .flip-box-back, .flip-box-front img {
-    width: 190px!important;
-    height: 260px!important;
+.pricision {
+    height: 1230px;
 }
-
-.flip-box{
-  width: 190px!important;
-    height: 260px!important;
-}
-
-.flip-box-back p {
-    margin-bottom: 15px;
-    font-size: 16px;
-    line-height: 24px;
-}*/
-
 .image-box-1 {
     margin-bottom: 30px;
 }
@@ -1534,9 +1518,11 @@ h2 {
 .truck-content-top {
     right: 0;
     left: 0px; 
-
 }
 
+.pricision {
+    height: 1050px;
+}
 
 .pricision-content-bottom {
     /*right: 75px;*/
@@ -1672,12 +1658,17 @@ p {
 .road-2{
   top: 130px;
 }
+.pricision {
+    height: auto;
+}
 .pricision-content-bottom {
     
     
     right: auto;
     
 }
+
+
 
 .pricision-container-top  {
     
@@ -2045,7 +2036,7 @@ p {
 }
 
 .pricision-img-top img,.pricision-img-bottom img{
-  width: 300px;
+  width: auto;
 }
 
 .pricision-container-bottom {
@@ -2167,4 +2158,13 @@ footer{
 
 }
 
+
+
+@media only screen and (max-width: 400px){
+
+.pricision-img-top img,.pricision-img-bottom img{
+  width: auto;
+}
+
+}
 
