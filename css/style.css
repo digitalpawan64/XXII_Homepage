@@ -825,7 +825,7 @@ header{
 .pricision-content-bottom {
     
     position: relative;
-    right: 150px;
+    right: 120px;
     bottom: 100px;
     width: 36%;
 }
@@ -1047,6 +1047,8 @@ footer{
 }
 
 @media only screen and (max-width: 1785px) {
+
+
   .owl-next {
     right: -140px;
 }
