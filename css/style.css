@@ -937,6 +937,7 @@ footer{
   text-decoration: none;
   margin: 0 15px;
   font-family: 'Inter', sans-serif;
+  transition: 0.5s ease;
 }
 
 .contact-info a {
@@ -944,9 +945,16 @@ footer{
  font-size: 16px;
   margin: 0 5px;
   font-family: 'Inter', sans-serif;
+  transition: 0.5s ease;
 }
 
+.footer-menu ul li a:hover{
+  color: #00e89d;
+}
 
+.contact-info a:hover{
+  color: #00e89d;
+}
 .contact-info span{
  margin:0 0px 0 10px;
 }
@@ -1006,13 +1014,21 @@ footer{
   text-decoration: none;
   color: #fff;
   font-size: 14px;
+  transition: 0.5s ease;
 }
+
+
 
 
 .social-icon a{
   color: #fff;
  font-size: 20px;
   margin: 0 10px;
+  transition: 0.5s ease;
+}
+
+.copyright-content a:hover , .social-icon a:hover{
+  color: #00e89d;
 }
 
 
@@ -1499,6 +1515,22 @@ h2 {
     line-height: 54px;
 }
 
+.truck-content-top p,.truck-content-bottom p{
+  padding-right: 0px!important;
+  padding-left: 0px;
+}
+
+.truck-content-bottom{
+  margin-left:0px ;
+
+}
+
+.truck-content-top {
+    right: 0;
+    left: 0px; 
+
+}
+
 
 .pricision-content-bottom {
     /*right: 75px;*/
@@ -1580,6 +1612,10 @@ p {
 
 }
 
+.welcome-content {
+    width: 90%;
+}
+
 .truck{
   height: auto;
 }
@@ -1597,7 +1633,7 @@ p {
 }
 
 .truck-content-top {
-    width: 80%;
+    width: 90%;
     position: relative;
     right: auto;
     text-align: center;
@@ -1620,7 +1656,7 @@ p {
 
 .truck-content-bottom {
    
-    width: 80%;
+    width: 90%;
     position: relative;
     right: auto;
     text-align: center;
@@ -1643,7 +1679,7 @@ p {
 }
 
 .pricision-content-top,.pricision-content-bottom {
-    width: 100%;
+    width: 90%;
     text-align: center;
 }
 
@@ -1651,6 +1687,9 @@ p {
     width: 510px;
 }
 
+.transportation-content {
+    width: 90%;
+}
 }
 
 
@@ -1816,15 +1855,15 @@ p {
 
 }
 
-.truck-content-top p{
+/*.truck-content-top p{
    padding: 0!important;
    margin: 0 10px;
-}
+}*/
 
-.truck-content-bottom p{
+/*.truck-content-bottom p{
   margin: 0 10px;
 }
-
+*/
 
 .logo img{
   width: 115px;
@@ -1945,7 +1984,7 @@ p {
 }
 
 .truck-content-top {
-     width: 100%; 
+     width: 90%; 
     position: relative;
      right: 0; 
 }
@@ -1966,10 +2005,7 @@ p {
     flex-direction: column-reverse;
 }
 
-.truck-content-bottom {
-    margin-left: 0px;
-    width: 100%;
-}
+
 
 .road-2 {
     bottom: 51px;
@@ -1992,9 +2028,6 @@ p {
 .pricision-container-top{
     flex-direction: column;
 }
-.pricision-content-top {
-    width: 100%;
-}
 .pricision-container-bottom {
  flex-direction: column-reverse;
 }
@@ -2014,6 +2047,7 @@ p {
     bottom: 0px;
 }
 
+
 .common-content button {
     margin-left: 0px; 
     margin-bottom: 30px;
@@ -2027,9 +2061,7 @@ p {
     text-align: center;
 }
 
-.transportation-content {
-    width: 100%;
-}
+
 
 .transportation-img img{
   width: 300px;
