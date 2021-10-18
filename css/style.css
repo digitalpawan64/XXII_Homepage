@@ -795,9 +795,9 @@ header{
 
 .pricision{
  background-color: #23233c;
- height: auto;
-
+ height: 1530px;
 }
+
 
 .pricision-container-top,.pricision-container-bottom{
   display: flex;
@@ -825,8 +825,8 @@ header{
 .pricision-content-bottom {
     
     position: relative;
-    /*right: 150px;*/
-    bottom: 60px;
+    right: 150px;
+    bottom: 100px;
     width: 36%;
 }
 
@@ -1039,6 +1039,10 @@ footer{
   .road-2 {
     
     bottom: 60px;
+}
+.pricision{
+ 
+ height: auto;
 }
 }
 
@@ -1665,6 +1669,12 @@ p {
 
 .road-2{
   top: 130px;
+}
+.pricision-content-bottom {
+    
+    
+    right: auto;
+    
 }
 
 .pricision-container-top  {
