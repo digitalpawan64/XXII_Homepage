@@ -801,7 +801,7 @@ header{
 
 .pricision-container-top,.pricision-container-bottom{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 
 }
 
