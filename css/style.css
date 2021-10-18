@@ -589,7 +589,7 @@ header{
 }
 
 .trusted-carousel-container{
-   padding-top: 30px;
+   padding-top: 20px;
    padding-left: 80px;
    padding-right: 80px;
  
@@ -659,7 +659,7 @@ header{
 
 .why-choose-btn{
   margin-left: 260px;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .why-choose-btn button{
@@ -828,12 +828,17 @@ header{
  width: 39%;
 }
 
+.pricision-content-top p ,.pricision-content-bottom p{
+    margin: 25px 0px 35px 0px!important;
+}
+
+
 
 .pricision-content-bottom {
     
     position: relative;
     right: 120px;
-    bottom: 100px;
+    bottom: 40px;
     width: 36%;
 }
 
