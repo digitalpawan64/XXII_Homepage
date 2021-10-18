@@ -601,7 +601,10 @@ header{
  height: auto;
 }
 
-
+.trusted-carousel .owl-stage-outer .owl-stage {
+    display: inline-flex;
+    align-items: center;
+}
 
 /*Trasnportation Start*/
 
