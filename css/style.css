@@ -1062,6 +1062,10 @@ footer{
 .owl-prev {
     left: -140px;
 }
+
+.pricision-content-bottom{
+  right: 70px;
+}
 }
 
 @media only screen and (max-width: 1700px) {
