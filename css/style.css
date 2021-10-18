@@ -799,10 +799,15 @@ header{
 }
 
 
-.pricision-container-top,.pricision-container-bottom{
+.pricision-container-top{
   display: flex;
   justify-content: space-around;
 
+}
+
+.pricision-container-bottom{
+  display: flex;
+  justify-content: space-between;
 }
 
 .pricision-container-top{
@@ -1041,7 +1046,7 @@ footer{
     bottom: 60px;
 }
 .pricision {
-    height: 1490px;
+    height: auto;
 }
 }
 
@@ -1101,9 +1106,7 @@ footer{
 
 @media only screen and (max-width: 1600px) {
 
-.pricision {
-    height: 1420px;
-}
+
 
 .why-choose-content {
   padding: 30px 0;
@@ -1209,9 +1212,7 @@ p {
     bottom: 64px;
 }
 
-.pricision {
-    height: 1350px;
-}
+
 .truck-img-top img, .truck-img-bottom img {
     width: 880px;
 }
@@ -1327,9 +1328,7 @@ h2 {
 } 
 
 @media only screen and (max-width:1250px){
-.pricision {
-    height: 1230px;
-}
+
 .image-box-1 {
     margin-bottom: 30px;
 }
@@ -1520,9 +1519,7 @@ h2 {
     left: 0px; 
 }
 
-.pricision {
-    height: 1050px;
-}
+
 
 .pricision-content-bottom {
     /*right: 75px;*/
